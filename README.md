@@ -20,4 +20,4 @@ groovy get_sentiments
 
 The resulting sentiments will be in sentiments.txt. do_all_subclasses will propagate sentiments across hierarchy, and calc_averages will average the score, but these scripts will need some modification because they currently rely on merged files for the experiment given in the current paper. Feel free to message me for input, but these scripts will be generalised for a future publication :)
 
-Results are given, too, for MESH and DOID, which you can see in propagated_ontology_sentiments.tsv
+Results are given, too, for MESH and DOID, which you can see in propagated_ontology_sentiments.tsv. Evaluation was performed in R, and commands are shown in eval.R.
